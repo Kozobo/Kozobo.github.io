@@ -1,3 +1,23 @@
 .title{
     color:blue;
 }
+.clinic-list{
+    display: flex;
+    list-style:none;
+    border-bottom: magenta 2px solid;
+    padding:0px 50px 0px 0px;
+    margin-top: 0px;
+}
+.clinic-list li{
+    flex:auto;
+    border: lightslategrey 0.05px  solid;
+    border-bottom: none;
+    text-align: center;
+    width:25%;
+}
+.ul{
+    padding-left: 0px;
+}
+.li{
+   padding:5px 5px 5px 5px; 
+}
